@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link type="text/css" rel="stylesheet" href="bootstrap.css">
+   
+
+    <title>Pig Game</title>
+</head>
+
+<body onload = "onloadFunction()">
+
+    <div class='heading'>
+        <h1 class="heading">THE PIG GAME</h1>
+    </div>
+    <div>
+    <a href="#" class="btnHelp" onclick="showRules()">Help?</a>
+    </div>
+    <div class='row'>
+        <div class='col-sm-2'>
+        </div>
+        <div class='col-sm-8'>
+            <div class='mainDiv'>
+                <center>
+                    <button class="button-primary btn"><b style="font-size: 100%; ">+</b> New Game</button>
+                </center>
+                <div class="row">
+                    <div class='col-sm-6'>
+                        <center>
+                            <h1 class="players" id="p0">PLAYER 1 <em id="prop0">*</em></h1>
+                            <img src="boy.png" width="20%">
+                        </center>
+
+                    </div>
+                    <div class="col-sm-6">
+                        <center>
+                            <h1 class="players" id="p1">PLAYER 2 <em id="prop1">*</em></h1>
+                            <img src="boy.png" width="20%">
+                        </center>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+
+                        <p id="score0">
+                            45
+                        </p>
+                    </div>
+                    <div class="col-sm-5">
+                            <img class="imgSize" src="dice-1.png">
+                    </div>
+                    <div class="col-sm-4">
+                        <p id="score1">
+                            43
+                        </p>
+                        <center>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="box0" id="b0"> 
+                            5
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="box1" id="b1">
+                            6
+                        </div>
+                    </div>
+                </div>
+                    <div class="row">
+                    <div class="col-sm-4">
+                        </div>
+                        <div class="col-sm-4">
+                        <button class="btn bttnDice"><img src="reload.png" class="btnImage"> ROll Dice</button>
+                            
+                            <button class="btn bttnHold"><img src="upload-512.png" class="btnImage"> Hold</button>
+                        </div>
+                        <div class="col-sm-4">
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+ <script src="script.js" type="text/javascript"></script>
+</html>
